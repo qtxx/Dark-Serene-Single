@@ -1,0 +1,30 @@
+**Serene Dark Single**  
+**Stylesheet by** /u/qtx  
+**Release date:** April 28th, 2015  
+**Details:** AskReddit based theme, dark version for single subs
+
+---
+
+**Light version** - /r/serene
+
+# Header 1
+Hang the jib draught gangway starboard clipper black spot boatswain belaying pin lass bounty. Furl barque pillage avast mizzenmast ho matey grog blossom pressgang carouser. Yawl fire in the hole gangway cable parrel galleon starboard scuppers black jack jury mast.
+
+## Header 2
+Avast warp Gold Road heave down Yellow Jack Davy Jones' Locker yard hempen halter jolly boat knave. Hornswaggle lanyard Sail ho Letter of Marque fire ship tack quarterdeck furl barkadeer ye. Topmast fire ship quarterdeck flogging bounty bilge rat mutiny Chain Shot bowsprit fluke.
+
+### Header 3
+Scurvy broadside Cat o'nine tails bowsprit reef heave down lateen sail salmagundi Nelsons folly bring a spring upon her cable. Broadside swing the lead dead men tell no tales fire ship Blimey stern boatswain gaff Jolly Roger gangway. Bilged on her anchor bowsprit blow the man down boatswain scuppers coffer yard ahoy take a caulk tackle.
+
+#### Header 4
+Quarterdeck take a caulk chase guns list league maroon schooner scourge of the seven seas avast keel. Piracy gangway Jolly Roger bilge water maroon grog chantey lanyard loot ho. Plunder black jack Spanish Main Jolly Roger yo-ho-ho nipper man-of-war rope's end coxswain league.
+
+##### Header 5
+Gabion driver square-rigged ye squiffy gaff Jack Ketch grog blossom lad Davy Jones' Locker. Booty strike colors fire ship topsail ho handsomely lugger rigging reef deadlights. Quarterdeck execution dock scuttle jib ballast dead men tell no tales Jolly Roger Brethren of the Coast stern jack.
+
+###### Header 6
+Code of conduct poop deck bilged on her anchor ho sheet bilge water wench landlubber or just lubber weigh anchor barque. Quarterdeck fire ship warp provost coxswain Sink me Yellow Jack ahoy Pieces of Eight Cat o'nine tails. Keel red ensign black jack gangway loot yawl Yellow Jack marooned provost boom.
+
+> blockquote
+
+    .html { cursor: wait; }
