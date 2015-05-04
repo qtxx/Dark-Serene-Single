@@ -568,7 +568,7 @@ Details: AskReddit based theme, dark version, for single subs */
         text-shadow: -1px -1px 0 rgba(0,0,0,.0); }
 
 /* Comments */
-    .res-commentBoxes .comment { 
+    .res-commentBoxes .commentarea .comment { 
         border:1px solid #2e3234!important; 
         padding: 10px!important;
         margin-right: 0!important;
@@ -579,28 +579,28 @@ Details: AskReddit based theme, dark version, for single subs */
     .comments-page .sitetable.nestedlisting { background: transparent!important; }
     .res-commentBoxes .comment { padding-bottom: 0!important; margin-bottom: 4px!important; } 
 
-    .res-commentBoxes .comment .comment,
-    .res-commentBoxes .comment .comment .comment .comment,
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment { 
+    .res-commentBoxes .commentarea .comment .comment,
+    .res-commentBoxes .commentarea .comment .comment .comment .comment,
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment { 
         background: #252829!important;
         margin-left: 0!important; padding-bottom: 0; margin-bottom: 4px!important; border-right:1px solid #2e3234!important;
         -webkit-box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08);
            -moz-box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08);
                 box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08); }
 
-    .res-commentBoxes .comment .comment .comment,
-    .res-commentBoxes .comment .comment .comment .comment .comment,
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment {
+    .res-commentBoxes .commentarea .comment .comment .comment,
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment,
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment {
         background: #1b1e1f!important;
         margin-left: 0!important; padding-bottom: 0; margin-bottom: 4px!important; border-right:1px solid #2e3234!important;
         -webkit-box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08);
            -moz-box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08);
                 box-shadow: inset 0 0 0 0 rgba(0,0,0,0.08); }
 
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: #252829!important; }
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: #252829!important; }
 
-    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #1b1e1f!important; }
+    .res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #1b1e1f!important; }
     .comment .midcol { margin-left: 10px; }
     .res .comment .midcol { margin-left: 0px; }
 
@@ -1744,8 +1744,8 @@ margin-bottom: 0;
 
 /* Logged out & Restricted Links */
     .login-form-side {
-        background: #fcfcfc;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: #121414;
+        border: 1px solid #2e3234;
         border-left: 0;
         border-right: 0;
         padding: 10px 0; }
