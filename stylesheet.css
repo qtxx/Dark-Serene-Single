@@ -1829,3 +1829,15 @@ margin-bottom: 0;
     .comment .md tr:nth-child(odd) td { background-color: #2f3234; }
     .comment .md tr:hover td { background: rgba(0,0,0,.1); }
     .comment .md td { border: 1px solid #2e3234; }
+
+/* beta program */
+	.beta-hint a {
+		border-right: 1px solid rgba(225,255,255,.25);
+		margin-left: -36px;
+		width: 35px;
+		height: 40px;
+		font-size: 0;
+		background: url(%%flask%%) center no-repeat transparent; }
+
+	.beta-hint a:hover { background-color: #3c444e!important; }
+	.res .beta-hint a { margin-left: -51px; border: 0; }
