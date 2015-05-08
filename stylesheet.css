@@ -1842,6 +1842,10 @@ margin-bottom: 0;
 	.beta-hint a:hover { background-color: #3c444e!important; }
 	.res .beta-hint a { margin-left: -51px; border: 0; }
 
+	.read-next .read-next-header { background-color: #1b1e1f; border-bottom: 1px solid #2e3234; }
+	.read-next { background: #121414; border: 1px solid #2e3234; }
+	.read-next .read-next-button { background-color: #000; color: #bbb; }
+
 /* extras */
 	.comment.collapsed .midcol { visibility: visible !important; }
 	.comment.collapsed .arrow.up, .comment.collapsed .arrow.down { display: none  !important; }
