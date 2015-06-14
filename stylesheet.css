@@ -3,6 +3,8 @@ Stylesheet by /u/qtx
 Release date: April 24th, 2015
 Details: AskReddit based theme, dark version, for single subs */
 
+html { position: relative; }
+
     body { background: #252829; color: #aaa; }
     body>.content { margin: 0 20px 20px 10px; z-index: 1; }
     a, .md a { color: #6BB6CA; }
@@ -461,8 +463,9 @@ vertical-align: top;
 /* Misc styling */
     .entry .buttons li a {   color: #ebebeb; opacity: .9; font-weight: normal; }
     .entry .buttons li:hover a { opacity: 1; }
-    .nsfw-stamp acronym { background: #EE5E91; border-radius: 0; border: 1px solid rgba(0,0,0,.1)!important; color: #fff; }
+    .nsfw-stamp acronym { background: #EE5E91; border-radius: 0; border: 1px solid rgba(0,0,0,.1)!important; color: #fff; padding: 0 4px; }
     .give-gold { color: #988143!important; }
+.stamp { border: 0!important; }
 
 /* Sticky post */
     .link.stickied .rank:after {
@@ -1636,11 +1639,11 @@ margin-bottom: 0;
         padding: 10px 20px 10px 53px;
         margin: 20px 10px;
         position: relative;
+overflow: hidden;
         line-height: 1.2;
         color: #FFF7FB;
         font-weight: bold;
-        border: 1px solid rgba(0,0,0,0.05);
-        text-align: justify; }
+        border: 1px solid rgba(0,0,0,0.05); }
 
     .thing .md blockquote::before, .wiki-page .wiki-page-content .md.wiki blockquote::before {
         content: "";
@@ -1661,7 +1664,8 @@ margin-bottom: 0;
         background: #232323;
         padding: 10px;
         border: 1px solid rgba(0,0,0,.1);
-        border-left: 2px solid #F37259; }
+        border-left: 2px solid #F37259;
+text-align: justify; }
 
     .side blockquote p { margin: 0!important; }
 
