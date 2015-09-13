@@ -1860,3 +1860,6 @@ text-align: justify; }
 		color: #ebebeb!important;
 		line-height: 13px!important;
 		border-radius: 0!important; }
+
+.madeVisible .RESImage { z-index: 2!important; }
+.madeVisible { animation: none; }
